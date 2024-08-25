@@ -136,6 +136,9 @@
     padding: 4px 0;
    
   }
+ .footer .list-item:hover{
+   text-shadow: 2px 2px 4px #c24dcc;
+  }
 
   /* Adjustments for medium screens */
   @media(max-width:700px){
