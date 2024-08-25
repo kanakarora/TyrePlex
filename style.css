@@ -122,6 +122,27 @@
     box-shadow:2px 2px 4px 10px #bca77c;
   }
 
+  .breadcrumb {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    margin-left: 5em;
+  }
+  
+  .breadcrumb a {
+    color: #777a7c;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+    color: #e7a295;
+  }
+  
+  .breadcrumb span {
+    color: #333;
+  }
+
   /* Adjustments for medium screens */
   @media(max-width:700px){
     .brandLogoContainer{

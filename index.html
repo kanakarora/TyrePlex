@@ -19,8 +19,9 @@
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
       </head>
       <body>
+        <!-- d-flex justify-content-evenly align-items-center -->
           <nav class="navbar navbar-expand-lg  bg-white text-dark ">
-              <div class="container p-2 d-flex justify-content-evenly align-items-center">
+              <div class="container p-2 ">
                 <div>
                   <a class="navbar-brand fw-bold" href="#">
                     <img src="./images/TP-logo.webp" class="h-25" alt="CompanyLogo">
@@ -89,15 +90,15 @@
                 </span>
                 <span>&#11088; &#11088; &#11088; &#11088; &#11088;</span>
                 <span><a href="">2278 review</a></span></div>
-                <div>
-                  <span>
-
+                <div class="d-flex">
+                  <span class="px-2">
+                    <i class="bi bi-geo-alt"></i>
                   </span>
                   <p>PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, Ghaziabad, Uttar Pradesh, 201014</p>
                 </div>
-                <div>
-                  <span>
-
+                <div class="d-flex">
+                  <span class="px-2">
+                    <i class="bi bi-clock"></i>
                   </span>
                   <p>Open - Monday   to   Sunday - 10:00AM to 8:00PM</p>
                 </div>
@@ -243,16 +244,38 @@
             </div>
           </div>
 
+          <div class="breadcrumb">
+            <a href="#">Home</a> /
+            <a href="#">Tyre Dealers</a> /
+            <a href="#">Tyre Dealers Ghaziabad</a> /
+            <a href="#">SHREE HEMKUNT TYRES AND SERVICES</a>
+          </div>
+
           <div class=" bg-danger-subtle container">
             <h1 class="text-center">payment methods</h1>
             <div class="row ">
   
             <ul class="paymentOptions list-group h-100 px-0">
-               <li class="list-group-item col-12 h-25 bg-dark-subtle">Deposit to account</li>
-               <li class="list-group-item col-12 h-25 bg-dark-subtle">NET Banking</li>
-               <li class="list-group-item col-12 h-25 bg-dark-subtle">UPI</li>
-               <li class="list-group-item col-12 h-25 bg-dark-subtle">Credit Card/Debit Card</li>
-               <li class="list-group-item col-12 h-25 bg-dark-subtle">Wallets(PayTM/PhonePay/Amazon Etc.)</li>
+              <li class="list-group-item col-12 h-25 bg-dark-subtle">
+                <input type="radio" name="paymentMethod" id="depositAccount">
+                <label for="depositAccount">Deposit to account</label>
+            </li>
+            <li class="list-group-item col-12 h-25 bg-dark-subtle">
+                <input type="radio" name="paymentMethod" id="netBanking">
+                <label for="netBanking">NET Banking</label>
+            </li>
+            <li class="list-group-item col-12 h-25 bg-dark-subtle">
+                <input type="radio" name="paymentMethod" id="upi">
+                <label for="upi">UPI</label>
+            </li>
+            <li class="list-group-item col-12 h-25 bg-dark-subtle">
+                <input type="radio" name="paymentMethod" id="card">
+                <label for="card">Credit Card/Debit Card</label>
+            </li>
+            <li class="list-group-item col-12 h-25 bg-dark-subtle">
+                <input type="radio" name="paymentMethod" id="wallets">
+                <label for="wallets">Wallets(PayTM/PhonePay/Amazon Etc.)</label>
+            </li>
             </ul>
          
           </div>
